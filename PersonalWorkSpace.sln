@@ -5,7 +5,17 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalWorkSpace", "Src\PersonalWorkSpace\PersonalWorkSpace.csproj", "{43CB81CA-0C9C-4319-92EB-427CE4DD804D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "Src\Plugin\Plugin.csproj", "{92F933D5-7223-453F-8883-933454AD751C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin", "Src\PersonalWorkSpace.Plugin\Plugin.csproj", "{92F933D5-7223-453F-8883-933454AD751C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Src\PersonalWorkSpace.Shared\Shared.csproj", "{D2311112-EADF-4E51-AC82-FB1C481A7A2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{48A827D0-D3A4-4165-9994-5C6ADD5311FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{A6852185-11CA-4967-ACB4-15385355483B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{975B4425-A3BD-4CED-98DD-D421014C422F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.NewsReader", "Src\PersonalWorkSpace.Plugin.NewsReader\Plugin.NewsReader.csproj", "{33F25FAC-9071-40B1-9EAC-3A8C029E6E87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +31,23 @@ Global
 		{92F933D5-7223-453F-8883-933454AD751C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92F933D5-7223-453F-8883-933454AD751C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92F933D5-7223-453F-8883-933454AD751C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2311112-EADF-4E51-AC82-FB1C481A7A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2311112-EADF-4E51-AC82-FB1C481A7A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2311112-EADF-4E51-AC82-FB1C481A7A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2311112-EADF-4E51-AC82-FB1C481A7A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F25FAC-9071-40B1-9EAC-3A8C029E6E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F25FAC-9071-40B1-9EAC-3A8C029E6E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F25FAC-9071-40B1-9EAC-3A8C029E6E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F25FAC-9071-40B1-9EAC-3A8C029E6E87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43CB81CA-0C9C-4319-92EB-427CE4DD804D} = {48A827D0-D3A4-4165-9994-5C6ADD5311FA}
+		{92F933D5-7223-453F-8883-933454AD751C} = {A6852185-11CA-4967-ACB4-15385355483B}
+		{D2311112-EADF-4E51-AC82-FB1C481A7A2E} = {975B4425-A3BD-4CED-98DD-D421014C422F}
+		{33F25FAC-9071-40B1-9EAC-3A8C029E6E87} = {A6852185-11CA-4967-ACB4-15385355483B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90194937-7443-4C94-88B0-44A078AEC80E}
