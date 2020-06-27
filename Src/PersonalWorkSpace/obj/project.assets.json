@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\LearnWPF\\PersonalWorkSpace\\PersonalWorkSpace\\PersonalWorkSpace.csproj",
+      "projectUniqueName": "F:\\Project\\LearnWPF\\PersonalWorkSpace\\Src\\PersonalWorkSpace\\PersonalWorkSpace.csproj",
       "projectName": "PersonalWorkSpace",
-      "projectPath": "F:\\Project\\LearnWPF\\PersonalWorkSpace\\PersonalWorkSpace\\PersonalWorkSpace.csproj",
+      "projectPath": "F:\\Project\\LearnWPF\\PersonalWorkSpace\\Src\\PersonalWorkSpace\\PersonalWorkSpace.csproj",
       "packagesPath": "C:\\Users\\eranm\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\LearnWPF\\PersonalWorkSpace\\PersonalWorkSpace\\obj\\",
+      "outputPath": "F:\\Project\\LearnWPF\\PersonalWorkSpace\\Src\\PersonalWorkSpace\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
